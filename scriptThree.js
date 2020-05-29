@@ -10,7 +10,7 @@ buttonCheckThree.addEventListener("click", (e) => {
     setTimeout(() => {
       inputCodeThree.classList.remove("success");
 
-      window.location.assign(window.location.origin + "index4.html");
+      window.location = "index4.html";
     }, 1500);
   }
 
