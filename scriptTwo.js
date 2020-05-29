@@ -11,7 +11,9 @@ buttonCheckTwo.addEventListener("click", (e) => {
     setTimeout(() => {
       inputCodeTwo.classList.remove("success");
 
-      window.location.assign(window.location.origin + "/kvest/index3.html");
+      window.location.assign(
+        window.location.origin + "/kvest/" + "index3.html"
+      );
     }, 1500);
   }
 
