@@ -10,7 +10,7 @@ buttonCheckForth.addEventListener("click", (e) => {
     setTimeout(() => {
       inputCodeForth.classList.remove("success");
 
-      window.location.assign(window.location.origin + "/kvest/index5.html");
+      window.location.assign(window.location.origin + "index5.html");
     }, 1500);
   }
 
