@@ -10,7 +10,7 @@ buttonCheckSix.addEventListener("click", (e) => {
     setTimeout(() => {
       inputCodeSix.classList.remove("success");
 
-      window.location.assign(window.location.origin + "/index7.html");
+      window.location.assign(window.location.origin + "/kvest/index7.html");
     }, 1500);
   }
 
